@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ApplyColor">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\ApplyColor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Automate">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAICAACAAEAAAACAAAEAAAAAAAAAECAAAAEAA=</HashCode>
+      <FileName>Assets\Automate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeColorOnClick">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAAAAAAAAAAAAAAAQAACAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\ChangeColorOnClick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColorCheck">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ColorCheck.Illuminant" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\ColorCheck.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="ColorCheck.XYZ" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\ColorCheck.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ColorCheck.LAB" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\ColorCheck.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAQAEAAAACQAAAAAAAEAAAAAAAE4AAAAAAAQAAAAQAA=</HashCode>
+      <FileName>Assets\ColorCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeState">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAACEAADACAgAAAAAAAgAAAAAIAAAAAQAAAgAggAA=</HashCode>
+      <FileName>Assets\CubeState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exit">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Exit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlexibleColorPicker">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <Members>
+      <Field Name="advancedSettings" Hidden="true" />
+      <Property Name="avs" Hidden="true" />
+      <Field Name="bufferedColor" Hidden="true" />
+      <Field Name="canvas" Hidden="true" />
+      <Field Name="focusedPicker" Hidden="true" />
+      <Field Name="focusedPickerType" Hidden="true" />
+      <Method Name="GetGradientMode" Hidden="true" />
+      <Method Name="GetMarker" Hidden="true" />
+      <Method Name="GetNormalizedPointerPosition" Hidden="true" />
+      <Method Name="GetNormScreenSpace" Hidden="true" />
+      <Method Name="GetNormWorldSpace" Hidden="true" />
+      <Method Name="GetSanitizedHex" Hidden="true" />
+      <Method Name="GetValue" Hidden="true" />
+      <Method Name="GetValue1D" Hidden="true" />
+      <Field Name="hexInput" Hidden="true" />
+      <Method Name="HSVToRGB" Hidden="true" />
+      <Field Name="HUE_LOOP" Hidden="true" />
+      <Method Name="IsAlphaType" Hidden="true" />
+      <Method Name="IsHorizontal" Hidden="true" />
+      <Method Name="IsPickerAvailable" Hidden="true" />
+      <Method Name="IsPreviewType" Hidden="true" />
+      <Method Name="IsValidHexChar" Hidden="true" />
+      <Field Name="lastUpdatedMode" Hidden="true" />
+      <Method Name="MakeModeOptions" Hidden="true" />
+      <Field Name="materialsSeperated" Hidden="true" />
+      <Field Name="mode" Hidden="true" />
+      <Field Name="modeDropdown" Hidden="true" />
+      <Field Name="multiInstance" Hidden="true" />
+      <Method Name="OnEnable" Hidden="true" />
+      <Method Name="ParseHex" Hidden="true" />
+      <Method Name="PickColor" Hidden="true" />
+      <Method Name="PickColor1D" Hidden="true" />
+      <Method Name="PickColor2D" Hidden="true" />
+      <Method Name="PickColorMain" Hidden="true" />
+      <Field Name="pickers" Hidden="true" />
+      <Method Name="PointerUpdate" Hidden="true" />
+      <Method Name="RGBToHSV" Hidden="true" />
+      <Method Name="SeperateMaterials" Hidden="true" />
+      <Method Name="SetColorNoAlpha" Hidden="true" />
+      <Method Name="SetMarker" Hidden="true" />
+      <Method Name="SetPointerFocus" Hidden="true" />
+      <Field Name="SHADER_C1" Hidden="true" />
+      <Field Name="SHADER_C2" Hidden="true" />
+      <Field Name="SHADER_DOUBLE_MODE" Hidden="true" />
+      <Field Name="SHADER_HSV" Hidden="true" />
+      <Field Name="SHADER_HSV_MAX" Hidden="true" />
+      <Field Name="SHADER_HSV_MIN" Hidden="true" />
+      <Field Name="SHADER_MODE" Hidden="true" />
+      <Method Name="ShiftColor" Hidden="true" />
+      <Method Name="ShiftHue" Hidden="true" />
+      <Field Name="startingColor" Hidden="true" />
+      <Field Name="staticSpriteMain" Hidden="true" />
+      <Field Name="triggeredStaticMode" Hidden="true" />
+      <Method Name="TypeHex" Hidden="true" />
+      <Field Name="typeUpdate" Hidden="true" />
+      <Method Name="UpdateDynamic" Hidden="true" />
+      <Method Name="UpdateHex" Hidden="true" />
+      <Method Name="UpdateMarker" Hidden="true" />
+      <Method Name="UpdateMarkers" Hidden="true" />
+      <Method Name="UpdateMode" Hidden="true" />
+      <Method Name="UpdateStatic" Hidden="true" />
+      <Method Name="UpdateTextures" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Struct Name="FlexibleColorPicker.Picker" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\FlexibleColorPicker\Scripts\FlexibleColorPicker.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="FlexibleColorPicker.PickerType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\FlexibleColorPicker\Scripts\FlexibleColorPicker.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="FlexibleColorPicker.MainPickingMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\FlexibleColorPicker\Scripts\FlexibleColorPicker.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="FlexibleColorPicker.ColorUpdateEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\FlexibleColorPicker\Scripts\FlexibleColorPicker.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FlexibleColorPicker.AdvancedSettings" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\FlexibleColorPicker\Scripts\FlexibleColorPicker.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="FlexibleColorPicker.BufferedColor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\FlexibleColorPicker\Scripts\FlexibleColorPicker.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gYbIAGIC8BBUAATAggAQqQEWBSAAAEeAAygABxwsiGg=</HashCode>
+      <FileName>Assets\FlexibleColorPicker\Scripts\FlexibleColorPicker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenLocalHTML">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\OpenLocalHTML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenWindow">
+    <Position X="9.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAIAAAAAABAAEA=</HashCode>
+      <FileName>Assets\OpenWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PivotRotation">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACAAACAACgAIAACAIAAAMAEACSAAAgACEAAQAAA=</HashCode>
+      <FileName>Assets\PivotRotation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReadCube">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAARAAAKAACAOAAAAAAAoADAAAAAQAAAoAAEAAChA=</HashCode>
+      <FileName>Assets\ReadCube.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RotateCube">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAhAgCKAEAAAIAAAYAAAAIAAASAAAAAAACAAAAI=</HashCode>
+      <FileName>Assets\RotateCube.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectFace">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAACAAAAAAAAAAAAAAAAAAAAAACAEAAAAA=</HashCode>
+      <FileName>Assets\SelectFace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolveTwoPhase">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiAACAAAAAAAAAAIAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\SolveTwoPhase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToggleEventExample">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAgAAAAAAAAAAAAAAAAAIAAAAAQAABAABA=</HashCode>
+      <FileName>Assets\ToggleEventExample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kociemba.FaceCube">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAACAgAAAEABQAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Prefabs\Kociemba\__FaceCube.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
